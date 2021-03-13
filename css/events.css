@@ -243,6 +243,10 @@
         width: 0%;
     }
 
+    .carousel-btn{
+        font-size: 2.5rem !important;
+    }
+
     .carousel-button-left{
         padding: 0;
         padding-left: 7%;
@@ -271,5 +275,9 @@
         margin: 2% 3%;
         font-size: 0.6rem;
         line-height: 0.8rem;
+    }
+
+    .carousel-btn{
+        font-size: 1.8rem !important;
     }
 }
