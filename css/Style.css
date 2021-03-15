@@ -513,7 +513,7 @@ footer.footer .move-up span:hover{
   
 .heading1 {
     padding: 0 2rem;
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: 500;
     text-align: center;
     line-height: normal;
@@ -589,7 +589,7 @@ hr.solid {
 }
 
 .news-combo{
-  width: 60%;
+  width: 40%;
   margin: 8vh 0;
 }
 
@@ -789,6 +789,7 @@ hr.solid {
     }
 }
 
+<<<<<<< Updated upstream
 
 /* **************************** NAV BAR + VIDEO + EXPLORE+ RESPONSIVE(ALL THREE THAT ARE MENTION ******************************** */
 
@@ -1207,4 +1208,52 @@ hr.solid {
     margin-bottom: 20px;
    }
         
+=======
+.navbar-toggler{
+    right: 25px;
+    position: absolute;
+}
+
+.nav-item{
+    font-size: 1.1rem;
+    width: max-content;
+}
+
+.index-video{
+    width: 100%;
+}
+.home-video{
+    width: 100%;
+}
+
+.content {
+    position: relative;
+    background: rgba(0, 0, 0, 0.1);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+  
+#myBtn {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    font-size: 18px;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+#srm-apply{
+    
+    font-size: 2rem;
+    border: 2px solid white;
+>>>>>>> Stashed changes
 }

@@ -39,6 +39,7 @@
 
 <body>
 
+<<<<<<< Updated upstream
     <!-- ********************** NAV BAR **************** -->
 
     <section>
@@ -115,6 +116,57 @@
     
 
     <!-- ********************************* NAVBAR + EXPLORE ENDS ****************************** -->
+=======
+    <div class="navigation-bar">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./images/srmrmp (white).png" alt="site-logo" width="20%"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav navigation-links">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Admission</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Academics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Campus Life</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Research</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <section class="index-video">
+        <video autoplay muted loop id="myVideo" class="home-video">
+            <source src="/assets/vid.mp4" type="video/mp4">
+          </video>
+          
+          <div class="content row">
+            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
+                <button id="srm-apply">APPLY</button>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
+                <button id="myBtn" onclick="myFunction()"><i class="fas fa-play"></i></button>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
+                <button id="srm-apply">EXPLORE PROGRAMS</button>
+            </div>
+            
+            
+          </div>
+    </section>
+>>>>>>> Stashed changes
     
     <div class="response">
         <div class="heading1">SRM's Response to COVID-19</div>
@@ -527,10 +579,10 @@
                     <h4 style="color:white;">Follow us</h4>
                     <p style="color:white;"> Let us be Social</p>
                     <div>
-                        <a href=""><i class="fab fa-facebook-f"></i></a>
-                        <a href=""><i class="fab fa-twitter"></i></a>
-                        <a href=""></a><i class="fab fa-instagram"></i></a>
-                        <a href=""></a><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/SRMUniversityOfficial"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/SRM_Univ"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/SRMUniversityOfficial/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCm1shC2LXjkKmgjz8LyJkFw"><i class="fab fa-youtube"></i></a>
                     </div>
                     <div>
                         <button class="btn24" style="margin-top: 12%; padding-left: 3%; padding-right: 3%; padding-top:3%; padding-bottom: 3%;">ENROLL NOW!</button>
@@ -570,5 +622,22 @@
      
             });
         </script>
+        
+        <script>
+            var video = document.getElementById("myVideo");
+            
+            var btn = document.getElementById("myBtn");
+            
+            function myFunction() {
+              if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+              } else {
+                video.pause();
+                btn.innerHTML = "Play";
+              }
+            }
+        </script>
+        
     </body>
 </html>
