@@ -789,8 +789,6 @@ hr.solid {
     }
 }
 
-<<<<<<< Updated upstream
-
 /* **************************** NAV BAR + VIDEO + EXPLORE+ RESPONSIVE(ALL THREE THAT ARE MENTION ******************************** */
 
 
@@ -1154,6 +1152,7 @@ hr.solid {
    }
         
 }
+
 @media (max-width: 1440px) and (min-width:1024px){
     #myVideo {
         margin-top: -20px;
@@ -1207,8 +1206,9 @@ hr.solid {
     margin-top: 25px;
     margin-bottom: 20px;
    }
-        
-=======
+}
+
+
 .navbar-toggler{
     right: 25px;
     position: absolute;
@@ -1255,5 +1255,4 @@ hr.solid {
     
     font-size: 2rem;
     border: 2px solid white;
->>>>>>> Stashed changes
 }
