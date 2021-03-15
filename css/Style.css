@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 
 /*--------------------------------Footer Starts--------------------------------------*/
@@ -780,4 +787,424 @@ hr.solid {
     .news-combo{
         width: 100%;
     }
+}
+
+
+/* **************************** NAV BAR + VIDEO + EXPLORE+ RESPONSIVE(ALL THREE THAT ARE MENTION ******************************** */
+
+
+
+
+#myVideo {
+   margin-top: -95px;
+    height: 50%;
+    width: 100% /* 100 * 16 / 9 */
+   
+}
+.navbar-nav{
+    margin-left: 50px;
+    margin-left: -282px;
+    color: #fff !important;
+    font-size: 32px;
+}
+.nav-link{
+    margin-right: 53px;
+    color: #FFFFFF !important;
+}
+
+.video-heading1 {
+        position: absolute;
+    width: 48vw;
+    height: 27vh;
+    left: 99px;
+    font-weight: 400;
+    top: 511px;
+    font-family: 'Anton', sans-serif;
+    font-size: 84px !important;
+    line-height: 103px;
+    text-align: center;
+    font-feature-settings: 'cpsp' on;
+    color: #FFFFFF;
+    mix-blend-mode: lighten;
+    backdrop-filter: blur(4px);
+}
+
+.video-btn1{
+    position: absolute;
+    width: 13vw;
+    height: 9vh;
+    left: 90px;
+    font-weight: 400;
+    top: 800px;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px !important;
+    /* line-height: 98px; */
+    text-align: center;
+    font-feature-settings: 'cpsp' on;
+    color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    /* mix-blend-mode: lighten; */
+    /* backdrop-filter: blur(4px);
+    /* backdrop-filter: blur(4px) */
+}
+/* .video-btn1{
+    border: 3px solid #FFFFFF;
+} */
+.video-btn2{
+ position: absolute;
+    width: 25vw;
+    height: 9vh;
+    left: 337px;
+    font-weight: 400;
+    top: 800px;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px !important;
+    /* line-height: 98px; */
+    text-align: center;
+    font-feature-settings: 'cpsp' on;
+    color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+}
+/* .myBtn{
+    color: blanchedalmond;
+  float: left;
+    }   */
+
+.explore{
+    background-color: #67090E;
+    color: #FFFFFF;
+    position: absolute;
+     width: 100%;
+    height: 70px;
+   
+    /* margin-top: 40px; */
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 64px;
+ 
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.colo-white{
+    color: #fff;
+    margin-left: 10px;
+}
+
+.campus{
+    margin-top: 115px;
+    /* margin-left: 160px; */
+}
+.campus-heading1{
+    background-color: #0A2735;
+    font-size: 70px;
+    font-family: Anton;
+    font-weight: 400;
+    line-height: 100px;
+    text-align: center;
+    font-feature-settings: 'cpsp' on;
+    color: #fff;
+    margin-left: 153px;
+    width: 83vw;
+   
+    
+    mix-blend-mode:darken;
+
+
+
+}
+.campus-sub-heading{
+    
+       margin-left: 140px;
+       margin-right: 84px;
+       margin-top: 45px;
+       font-size: 33px;
+       font-weight: 700;
+       color: #67090E;
+       text-align: center;
+       font-feature-settings: 'cpsp' on;
+       mix-blend-mode: darken;
+
+}
+
+
+/* ************************* media querry ************************ */
+@media (max-width: 375px) and (min-width:100px){
+    #myVideo {
+        margin-top: -20px;
+    }
+   
+    .video-heading1{
+        top: 149px;
+        font-size: 21px !important;
+        line-height: 35px;
+        width: 56vw;
+        height: 13vh;
+        left: 35px;
+        backdrop-filter: blur(0px);
+    }
+    .video-btn1{
+       
+        top: 242px;
+        left: 20px;
+        width: 68px;
+        height: 28px;
+        font-size: 17px !important;
+
+    }
+    .video-btn2{
+       
+        top: 242px;
+        left: 105px;
+        width: 148px;
+        height: 28px;
+        font-size: 17px !important;
+
+    }
+    .explore{
+        margin-top: -5px;
+        font-size: 35px;
+    }
+   
+     .campus-heading1{
+        font-size: 41px;
+        padding-top: -71px;
+        width: 74vw;
+        margin-left: 49px;
+        height: 12vh
+     }
+  .campus-sub-heading{
+    margin-left: 34px;
+    margin-right: 28px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+        
+}
+
+
+
+
+@media (max-width: 425px) and (min-width:375px){
+    #myVideo {
+        margin-top: -20px;
+    }
+   
+    .video-heading1{
+        top: 185px;
+        font-size: 21px !important;
+        line-height: 34px;
+        width: 46vw;
+        height: 13vh;
+        left: 35px;
+        backdrop-filter: blur(1px);
+    }
+    .video-btn1{
+       
+        top: 291px;
+        left: 20px;
+        width: 68px;
+        height: 28px;
+        font-size: 17px !important;
+
+    }
+    .video-btn2{
+       
+        top: 290px;
+        left: 105px;
+        width: 148px;
+        height: 28px;
+        font-size: 17px !important;
+
+    }
+    .explore{
+        margin-top: -5px;
+        font-size: 35px;
+    }
+   
+     .campus-heading1{
+        font-size: 41px;
+        padding-top: -71px;
+        width: 74vw;
+        margin-left: 49px;
+        height: 12vh
+     }
+  .campus-sub-heading{
+    margin-left: 34px;
+    margin-right: 28px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+        
+}
+
+@media (max-width: 760px) and (min-width:425px){
+    #myVideo {
+        margin-top: -20px;
+    }
+   
+    .video-heading1{
+        top: 221px;
+        font-size: 29px !important;
+        line-height: 34px;
+        width: 50vw;
+        height: 13vh;
+        left: 35px;
+        backdrop-filter: blur(1px);
+    }
+    .video-btn1{
+       
+        top: 336px;
+        left: 20px;
+        width: 68px;
+        height: 28px;
+        font-size: 17px !important;
+
+    }
+    .video-btn2{
+       
+        top: 336px;
+        left: 105px;
+        width: 148px;
+        height: 28px;
+        font-size: 17px !important;
+
+    }
+    .explore{
+        margin-top: -5px;
+        font-size: 35px;
+    }
+   
+     .campus-heading1{
+        font-size: 41px;
+        padding-top: -71px;
+        width: 74vw;
+        margin-left: 49px;
+        height: 12vh
+     }
+  .campus-sub-heading{
+    margin-left: 34px;
+    margin-right: 28px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+        
+}
+
+@media (max-width: 1023px) and (min-width:768px){
+    #myVideo {
+        margin-top: -20px;
+    }
+   
+    .video-heading1{
+        top: 389px;
+        font-size: 51px !important;
+        line-height: 63px;
+        width: 50vw;
+        height: 13vh;
+        left: 35px;
+        backdrop-filter: blur(1px);
+    }
+    .video-btn1{
+       
+        top: 608px;
+     left: 20px;
+     width: 78px;
+     height: 33px;
+     font-size: 21px !important;
+
+    }
+    .video-btn2{
+       
+        top: 608px;
+        left: 118px;
+        width: 171px;
+        height: 34px;
+        font-size: 20px !important;
+
+    }
+    .explore{
+        margin-top: -5px;
+        font-size: 58px;
+    }
+   
+     .campus-heading1{
+        font-size: 58px;
+     
+     width: 74vw;
+     margin-left: 114px;
+     height: 14vh;
+
+     }
+  .campus-sub-heading{
+    margin-left: 115px;
+    margin-right: 107px;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+   }
+        
+}
+@media (max-width: 1440px) and (min-width:1024px){
+    #myVideo {
+        margin-top: -20px;
+    }
+   
+    .video-heading1{
+        top: 347px;
+     font-size: 61px !important;
+     line-height: 76px;
+     width: 57vw;
+     height: 26vh;
+     left: 35px;
+     backdrop-filter: blur(3px);
+    }
+    .video-btn1{
+       
+        top: 614px;
+        left: 31px;
+        width: 120px;
+        height: 41px;
+        font-size: 26px !important;
+    }
+
+    
+    .video-btn2{
+       
+        top: 614px;
+        left: 178px;
+        width: 232px;
+        height: 43px;
+        font-size: 24px !important;
+
+    }
+    .explore{
+        margin-top: -5px;
+        font-size: 58px;
+    }
+   
+     .campus-heading1{
+        font-size: 58px;
+     
+     width: 74vw;
+     margin-left: 114px;
+     height: 14vh;
+
+     }
+  .campus-sub-heading{
+    margin-left: 115px;
+    margin-right: 107px;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+   }
+        
 }
